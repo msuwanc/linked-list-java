@@ -1,24 +1,24 @@
 package models;
 
 public class Node {
-    private int value;
-    private Node nextNode;
+    public String value;
+    public Node nextNode;
 
-    public Node(int value) {
+    public Node(String value) {
         this.value = value;
         this.nextNode = null;
     }
 
-    public Node(int value, Node nextNode) {
+    public Node(String value, Node nextNode) {
         this.value = value;
         this.nextNode = nextNode;
     }
 
-    public int getValue() {
+    public String getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(String value) {
         this.value = value;
     }
 

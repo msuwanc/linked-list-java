@@ -2,10 +2,10 @@ import models.Node;
 
 public class Main {
     public static void main(String[] args) {
-        Node first = new Node(1);
-        Node second = new Node(2);
-        Node third = new Node(3);
-        Node fourth = new Node(4);
+        Node first = new Node("A");
+        Node second = new Node("B");
+        Node third = new Node("C");
+        Node fourth = new Node("D");
 
         first.setNextNode(second);
         second.setNextNode(third);
